@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+  <title>NixIt</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body class ="body">
+  <header class="mainHeader"?>
+    <img src="img/logo.png">
+
+    <nav><ul>
+      <li><a href="index.html"> Home </a></li>
+      <li><a href="about.html"> About </a></li>
+      <li><a href="tutorials.html"> Tutorials </a></li>
+      <li class="active"><a href="#"> Contact </a></li>
+    <ul></nav>
+  </header>
+  <h2> Contact Us </h2>
+  <form class="form" action="contact_process.php" method="POST">
+    <p class="name">
+      <input type="text" name="name" id="name" placeholder="Your Name" />
+      <label for="name"> Name </label>
+    </p>
+
+    <p class="email">
+      <input type="text" name="email" id="email" placeholder="mail@example.com" />
+      <label for="email"> Email </label>
+    </p>
+
+    <p class="web">
+      <input type="text" name="web" id="web" placeholder="www.address.com" />
+      <label for="web"> Site </label>
+    </p>
+
+    <p class="text">
+      <textarea name="message" placeholder="Your Message" /></textarea>
+    </p>
+
+    <p class="submit">
+      <input type="submit" value="send" />
+    </p>
+  </form>
+
+
+  <footer class="mainFooter">
+    <p>Copyright &copy; 2017 <a href="#" title="nixit.com">*NixIt.com</p>
+    </footer>
+</body>
+</html>
